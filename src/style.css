@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+.clock-container {
+  background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background-size: cover;
+}
+
+* {
+  font-family: 'Inter', 'helvetica neue', sans-serif;
+}
