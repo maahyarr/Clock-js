@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="clock-container min-h-screen flex items-center justify-center">
-      <div class="text-center">
+      <div class="text-center flex justify-center">
         <h1 class="text-white text-3xl font-bold mb-2">
           JS + CSS Clock - START
         </h1>
@@ -40,7 +40,7 @@
 
             <!-- Second hand (static position) -->
             <div
-              class="hand second-hand w-1/2 h-1 bg-red-600 absolute top-1/2 origin-[100%] left-0 rotate-180"
+              class="hand second-hand w-1/2 h-1 bg-red-600 absolute top-1/2 origin-[100%] left-0 rotate-180 transition-all duration-[0.05s] ease-[cubic-bezier(0.1,2.7,0.58,1)]"
             ></div>
           </div>
         </div>
