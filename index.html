@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="clock-container min-h-screen flex items-center justify-center">
-      <div class="text-center flex justify-center">
+      <div class="text-center flex flex-col items-center justify-center">
         <h1 class="text-white text-3xl font-bold mb-2">
           JS + CSS Clock - START
         </h1>
@@ -23,24 +23,25 @@
           class="clock relative w-80 h-80 border-[20px] border-white rounded-full shadow-[0_0_0_4px_rgba(0,0,0,0.1),inset_0_0_0_3px_#EFEFEF,inset_0_0_10px_black,0_0_10px_rgba(0,0,0,0.2)] p-8"
         >
           <div class="clock-face relative w-full h-full -translate-y-[3px]">
+            
             <!-- Clock center dot -->
             <div
               class="absolute top-1/2 left-1/2 w-4 h-4 bg-gray-800 rounded-full -translate-x-1/2 -translate-y-1/2 z-10"
             ></div>
 
-            <!-- Hour hand (static position) -->
+            
             <div
-              class="hand hour-hand w-1/2 h-2 bg-gray-900 absolute top-1/2 origin-[100%] left-0 rotate-90"
+              class="hand hour-hand w-1/2 h-2 bg-gray-700 absolute top-1/2 origin-[100%] left-0 "
             ></div>
 
-            <!-- Minute hand (static position) -->
+          
             <div
-              class="hand min-hand w-1/2 h-1.5 bg-gray-800 absolute top-1/2 origin-[100%] left-0 rotate-45"
+              class="hand min-hand w-1/2 h-1.5 bg-gray-500 absolute top-1/2 origin-[100%] left-0 "
             ></div>
 
-            <!-- Second hand (static position) -->
+           
             <div
-              class="hand second-hand w-1/2 h-1 bg-red-600 absolute top-1/2 origin-[100%] left-0 rotate-180 transition-all duration-[0.05s] ease-[cubic-bezier(0.1,2.7,0.58,1)]"
+              class="hand second-hand w-1/2 h-1 bg-red-600 absolute top-1/2 origin-[100%] left-0  transition-all duration-[0.05s] ease-[cubic-bezier(0.1,2.7,0.58,1)]"
             ></div>
           </div>
         </div>
